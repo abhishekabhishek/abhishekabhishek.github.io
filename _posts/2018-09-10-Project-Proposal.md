@@ -146,7 +146,7 @@ Note: The findings from this research effort will provide a very good head start
 
 (9)	Shor, P.W., “Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer”, arxiv: https://arxiv.org/abs/quant-ph/9508027v2 
 
-Textbook references:
+### **Textbook references:**
 
 i.	Rieffel, E., Polak, W., “Quantum Computing : A Gentle Introduction”, doi: https://doi.org/10.1063/PT.3.1442
 
