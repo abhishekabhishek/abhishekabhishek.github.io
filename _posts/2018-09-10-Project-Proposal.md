@@ -7,12 +7,12 @@ title: Project Proposal
 ### Title : An analysis of computational complexity and implementation requirements of quantum graph algorithms on an Universal Quantum Computer.
 ### Abhishek ., 7803917
 
-#### **1. Abstract**
+### **1. Abstract**
 
 Recent breakthroughs in Quantum Computing has enabled public access to a wide array of actual quantum hardware and simulators. With the progress to achieving "quantum supremacy" **(1)(4)** being accelerated by tech giants such as Google, IBM and Microsoft, the need for algorithms to exploit the "quantum effects" of the hardware has emerged rapidly. In this research effort, we explore and evaluate the implementations of graph algorithms such as TSP and Dijkstra’s Shortest Path on simulated and actual universal quantum computers, as well as determine changes to the computational complexity and runtime speedup provided by such implementations. We use IBM's Q Platform as a base for development and execution with the help of Qiskit, an open-source quantum computing framework in Python. 
 
 
-#### **2. Introduction to the topic**
+### **2. Introduction to the topic**
 
 The basis of information processing in Quantum Computing lies in qubits. A qubit is two-state quantum mechanical system often described in Quantum Computing literature as a superposition in the standard basis {0,1}. The following is a representation of the state of the qubit in the standard basis:
 
@@ -34,7 +34,7 @@ As described in **(2)**, a quantum algorithm comprises of 3 important steps - 1.
 From a classical computing point of view,  graph problems such as TSP are NP-hard combinatorial optimization problems with various classical approaches such as branch-and-bound algorithms as well as heuristics and approximation algorithms being used to yield good solutions **(3)**. We will look at several of such optimization problems and try to determine and analyse the  computational complexity of the quantum implementation of such algorithms and check whether if any such implementations would belong to the BQP ( bounded-error quantum polynomial time ) complexity class.
 
 
-#### **3. Background preparation**
+### **3. Background preparation**
 
 
 For the past 8 months, I have carried out independent research into the building blocks of Quantum Computing through textbooks and online resources ( theoretical ) and the frameworks and libraries available for the implementation of generic quantum algorithms ( e.g. Grover’s Database Search, Shor’s Factoring Algorithm ) on both actual quantum hardware, and simulators running on local and remote machines ( experimental ).
@@ -61,7 +61,7 @@ Relevant learnings - Advanced algorithm analysis using methods for analyzing the
 Relevant learnings – Developing abstract linear algebraic formalism for quantum mechanical states and operators with classical measurements, solutions to 1-dimensional and 3-dimensional Schrodinger’s equations for the hydrogen atom, degeneracy in quantum states.
 
 
-#### **4. Related work**
+### **4. Related work**
 
 
 Most of the initial progress in the implementation of quantum algorithms for combinatorial optimization problems was based on an adiabatic quantum computing model and the algorithms were implemented and tested on quantum annealers ( actual and simulated ) **(5) (6) (7)**. However, the quantum annealer is the least powerful and most restrictive form of quantum computers with no known advantages over conventional computing with the only known application being to optimization problems.
@@ -73,7 +73,7 @@ To the best of my knowledge, the research into the development of optimization a
 The groundwork for building such algorithms have been laid by the development of quantum algorithms that are quadratically or exponentially faster than the theoretical limit for classical algorithms such as Grover’s search algorithm **(8)** and Shor’s factoring algorithm **(9)**. Many optimization and quantum machine learning algorithms rely on Grover’s search or one of its variants. We would use the corresponding pre-defined operators and call oracles if necessary for the development and implementation of the quantum graph algorithms.
 
 
-#### **5. Problem Statement**
+### **5. Problem Statement**
 
 Problem: What is the feasibility and computational complexity of quantum graph algorithms, and how much resources are required to develop, implement, and execute such algorithms on actual and simulated universal quantum computers ?
 
@@ -81,14 +81,14 @@ Problem: What is the feasibility and computational complexity of quantum graph a
 Goal: Thorough analysis of the implementation, deployment and execution of the developed algorithms.
 
 
-#### **6. Methodology**
+### **6. Methodology**
 
 The methodology used will be adapted from my first co-op term at Online Business Systems which I have found to be very useful to stay on track as well as quantify any progress made. The first step will be to organize an HMW ( How Might We? ) session with any individuals involved in this research effort to determine the major stages and checkpoints in the project as well as identify any foreseeable challenges and raise objections to the deliverables set forward.
 
 
 The project vision will be divided into a series of iterative step-projects, one building upon the other. The series is dynamic and will evolve as any unforeseen challenges emerge. Here is an initial overview of what the step-projects will look like :
 
-| `**Step #**` | `**Step Project overview**` | `**Predicted completion dates**` |
+| `Step #` | `Step Project overview` | `Predicted completion dates` |
 | ------ | --------------------- | -------------------------- |
 | `1`      | `Determination of graph algorithms most viable for implementation on a universal quantum computer. Development and research into improving the efficiency and complexity of quantum algorithms.` | `September 30, 2018` |
 | `2`      | `Setup of development and execution environments for the quantum simulators and actual machines ( including any optimizations to the simulators inferred from the design of the quantum graph algorithms such as gate delays, transformation sequencing etc. )` | `October 20, 2018` |
@@ -99,7 +99,7 @@ The project vision will be divided into a series of iterative step-projects, one
 In addition, each of the step-projects will be accompanied by an initial objective brief and an ending retrospective document compiling and addressing the progress made during the step-projects.
 
 
-#### **7. Infrastructure, facilities and expert personnel required**
+### **7. Infrastructure, facilities and expert personnel required**
 
 The following are the initial resources expected for successful completion of the project:
 
@@ -114,7 +114,7 @@ The following are the initial resources expected for successful completion of th
 1. Access to articles and journals actively covering the most recent advancements in Quantum Computing ( partly fulfilled by UofM library access.)
 2. Active correspondence with experts in the field of Quantum Algorithms and Computations as well as academic resources available in the computer science department at the University of Manitoba in the fields of high performance computing ( for universal quantum computer simulators ) and algorithm development ( for developing efficient algorithms for deployment ).
 
-#### **8. Outcome and Deliverables**
+### **8. Outcome and Deliverables**
 
 
 Outcome: Brief analysis of implementations of the graph algorithms on actual and simulated universal quantum computers including the deployment feasibility on actual quantum hardware, limitations due to error correction methods currently used, computational complexity of such algorithms and an overview of near-future applications.
@@ -126,7 +126,7 @@ Deliverables: Deployment of the theorized quantum algorithms on actual and simul
 Note: The findings from this research effort will provide a very good head start for the proposed research project for COMP 4560 – Undergraduate Industrial Project in the field of Quantum Machine Learning.
 
 
-#### **References**
+### **References**
 
 (1)	Aaronson, S., Chen L., “Complexity-theoretic foundations of quantum supremacy experiments”, DOI: http://dx.doi.org/10.4230/LIPIcs.CCC.2017.22
 
@@ -151,8 +151,6 @@ Textbook references:
 i.	Rieffel, E., Polak, W., “Quantum Computing : A Gentle Introduction”, doi: https://doi.org/10.1063/PT.3.1442
 
 ii.	Wittek, P., “Quantum Machine Learning”, doi: http://dx.doi.org/10.1016/B978-0-12-800953-6.00002-5
-
-
 
 
 
