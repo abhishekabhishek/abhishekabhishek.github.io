@@ -15,8 +15,11 @@ Recent breakthroughs in Quantum Computing has enabled public access to a wide ar
 **2. Introduction to the topic**
 
 The basis of information processing in Quantum Computing lies in qubits. A qubit is two-state quantum mechanical system often described in Quantum Computing literature as a superposition in the standard basis {0,1}. The following is a representation of the state of the qubit in the standard basis:
+
+
 |Ψ> = α|0> + β|1>,
 where α,β are probability amplitudes with |α|² + |β|² = 1.
+
 
 When measured in the standard basis, the probability of the outcome |0> with the measured value 0 is |α|², and of the outcome |1> with the measured value 1 is |β|².
 
