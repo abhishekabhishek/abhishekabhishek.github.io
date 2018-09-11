@@ -40,22 +40,22 @@ From a classical computing point of view,  graph problems such as TSP are NP-har
 For the past 8 months, I have carried out independent research into the building blocks of Quantum Computing through textbooks and online resources ( theoretical ) and the frameworks and libraries available for the implementation of generic quantum algorithms ( e.g. Grover’s Database Search, Shor’s Factoring Algorithm ) on both actual quantum hardware, and simulators running on local and remote machines ( experimental ).
 Courses taken for building a background for the project are following:
 
-PHYS 2390: Theoretical Physics 1
+**PHYS 2390: Theoretical Physics 1**
 Relevant learnings - Mathematical methods used for understanding and explaining the interaction between physical systems.
 
-COMP 2140: Data Structures and Algorithms
+**COMP 2140: Data Structures and Algorithms**
 Relevant learnings - Common combinatorial graph optimization algorithms and introductory algorithm analysis.
 
-COMP 2380: Quantum Physics 
+**COMP 2380: Quantum Physics** 
 Relevant learnings - Mathematical methods associated with quantum systems. Proofs related to observations from quantum systems with no classical counterpart. 
 
-PHYS 2490: Theoretical Physics 2
+**PHYS 2490: Theoretical Physics 2**
 Relevant learnings - Solutions to ordinary and partial differential equations in classical and quantum physics,  introductory probability theorems and common distributions.
 
-COMP 2080: Analysis of Algorithms
+**COMP 2080: Analysis of Algorithms**
 Relevant learnings - Advanced algorithm analysis using methods for analyzing the time and space requirements of the algorithms, exploring different models of computation, algorithm design using different strategies ( e.g. greedy, randomized algorithms )
 
-PHYS 3380: Quantum Mechanics 2
+**PHYS 3380: Quantum Mechanics 2**
 Relevant learnings – Developing abstract linear algebraic formalism for quantum mechanical states and operators with classical measurements, solutions to 1-dimensional and 3-dimensional Schrodinger’s equations for the hydrogen atom, degeneracy in quantum states.
 
 **4. Related work**
@@ -80,6 +80,7 @@ The methodology used will be adapted from my first co-op term at Online Business
 
 
 The project vision will be divided into a series of iterative step-projects, one building upon the other. The series is dynamic and will evolve as any unforeseen challenges emerge. Here is an initial overview of what the step-projects will look like :
+
 
 
 
