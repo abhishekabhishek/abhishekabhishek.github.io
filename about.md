@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am an Undergraduate Student at the University of Manitoba in the B.Sc. Joint Honours ( Computer Science and Physics ) Program. My research interests include Machine Learning ( Primarily deep learning and neural networks ), Quantum Computation and Quantum Information. Currently, I am working at [Online Business Systems](https://www.obsglobal.com/) as a Research Analyst and Software Developer. I have also undertaken a Quantum Computing Project as my Undergraduate Computer Science Honours Project.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+University email - [abhishek@myumanitoba.ca](mailto:abhishek@myumanitoba.ca)
+Work email - [akajal@obsglobal.com](mailto:akajal@obsglobal.com)
