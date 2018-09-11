@@ -23,7 +23,7 @@ where α,β are probability amplitudes with |α|² + |β|² = 1.
 
 When measured in the standard basis, the probability of the outcome |0> with the measured value 0 is |α|², and of the outcome |1> with the measured value 1 is |β|².
 
-While the vector spaces of classical objects combine through a direct sum (⊕), the vector spaces associated with quantum systems combine through the tensor product (⨂). For example, consider n classical objects with m-dimensional vector space, the joint state space of these n objects has m.n dimensions whereas for n quantum systems associated with m-dimensional vector space, the joint state space has mn dimensions, the state space of a quantum system grows exponentially. This means there are vastly more states available to encode the information in. This behaviour of large state spaces corresponding to small physical quantum systems is at the center of the computational speedup exploited by quantum hardware, and therefore quantum algorithms.
+While the vector spaces of classical objects combine through a direct sum (⊕), the vector spaces associated with quantum systems combine through the tensor product (⨂). For example, consider n classical objects with m-dimensional vector space, the joint state space of these n objects has m.n dimensions whereas for n quantum systems associated with m-dimensional vector space, the joint state space has m^n dimensions, the state space of a quantum system grows exponentially. This means there are vastly more states available to encode the information in. This behaviour of large state spaces corresponding to small physical quantum systems is at the center of the computational speedup exploited by quantum hardware, and therefore quantum algorithms.
 
 A basic operation on the state of a qubit is implemented through a series of unitary transformation, where a unitary transformation is described by a matrix U with complex entries, which satisfies the following condition:
 UU^ = U^U = I, where U^ denotes the transposed complex conjugate matrix of U, and I denotes the identity matrix.
@@ -38,6 +38,8 @@ From a classical computing point of view,  graph problems such as TSP are NP-har
 
 
 For the past 8 months, I have carried out independent research into the building blocks of Quantum Computing through textbooks and online resources ( theoretical ) and the frameworks and libraries available for the implementation of generic quantum algorithms ( e.g. Grover’s Database Search, Shor’s Factoring Algorithm ) on both actual quantum hardware, and simulators running on local and remote machines ( experimental ).
+
+
 Courses taken for building a background for the project are following:
 
 **PHYS 2390: Theoretical Physics 1**
@@ -58,11 +60,16 @@ Relevant learnings - Advanced algorithm analysis using methods for analyzing the
 **PHYS 3380: Quantum Mechanics 2**
 Relevant learnings – Developing abstract linear algebraic formalism for quantum mechanical states and operators with classical measurements, solutions to 1-dimensional and 3-dimensional Schrodinger’s equations for the hydrogen atom, degeneracy in quantum states.
 
+
 **4. Related work**
 
 
 Most of the initial progress in the implementation of quantum algorithms for combinatorial optimization problems was based on an adiabatic quantum computing model and the algorithms were implemented and tested on quantum annealers ( actual and simulated ) **(5) (6) (7)**. However, the quantum annealer is the least powerful and most restrictive form of quantum computers with no known advantages over conventional computing with the only known application being to optimization problems.
+
+
 To the best of my knowledge, the research into the development of optimization algorithms for universal quantum computer hardware is still in very early stages, particularly due to the impeding restriction on the number of qubits being available of both the simulators and the developed quantum hardware.
+
+
 The groundwork for building such algorithms have been laid by the development of quantum algorithms that are quadratically or exponentially faster than the theoretical limit for classical algorithms such as Grover’s search algorithm **(8)** and Shor’s factoring algorithm **(9)**. Many optimization and quantum machine learning algorithms rely on Grover’s search or one of its variants. We would use the corresponding pre-defined operators and call oracles if necessary for the development and implementation of the quantum graph algorithms.
 
 
@@ -81,7 +88,12 @@ The methodology used will be adapted from my first co-op term at Online Business
 
 The project vision will be divided into a series of iterative step-projects, one building upon the other. The series is dynamic and will evolve as any unforeseen challenges emerge. Here is an initial overview of what the step-projects will look like :
 
-
+| **Step #** | **Step Project overview** | **Predicted completion dates** |
+| ------ | --------------------- | -------------------------- |
+| 1      | Determination of graph algorithms most viable for implementation on a universal quantum computer. Development and research into improving the efficiency and complexity of quantum algorithms. | September 30, 2018
+| 2      |
+| 3      |
+| 4      | 
 
 
 
