@@ -18,10 +18,13 @@ The basis of information processing in Quantum Computing lies in qubits. A qubit
 
 
 |Ψ> = α|0> + β|1>,
+
+
 where α,β are probability amplitudes with |α|² + |β|² = 1.
 
 
 When measured in the standard basis, the probability of the outcome |0> with the measured value 0 is |α|², and of the outcome |1> with the measured value 1 is |β|².
+
 
 While the vector spaces of classical objects combine through a direct sum (⊕), the vector spaces associated with quantum systems combine through the tensor product (⨂). For example, consider n classical objects with m-dimensional vector space, the joint state space of these n objects has m.n dimensions whereas for n quantum systems associated with m-dimensional vector space, the joint state space has m^n dimensions, the state space of a quantum system grows exponentially. This means there are vastly more states available to encode the information in. This behaviour of large state spaces corresponding to small physical quantum systems is at the center of the computational speedup exploited by quantum hardware, and therefore quantum algorithms.
 
