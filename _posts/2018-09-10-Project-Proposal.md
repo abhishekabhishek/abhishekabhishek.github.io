@@ -15,7 +15,8 @@ Recent breakthroughs in Quantum Computing has enabled public access to a wide ar
 **2. Introduction to the topic**
 
 The basis of information processing in Quantum Computing lies in qubits. A qubit is two-state quantum mechanical system often described in Quantum Computing literature as a superposition in the standard basis {0,1}. The following is a representation of the state of the qubit in the standard basis:
-|Ψ> = α|0> + β|1>, where α,β are probability amplitudes with |α|² + |β|² = 1.
+|Ψ> = α|0> + β|1>,
+where α,β are probability amplitudes with |α|² + |β|² = 1.
 
 When measured in the standard basis, the probability of the outcome |0> with the measured value 0 is |α|², and of the outcome |1> with the measured value 1 is |β|².
 
@@ -26,9 +27,8 @@ UU^ = U^U = I, where U^ denotes the transposed complex conjugate matrix of U, an
 
 Such basic operations are referred to as gates, of which {H,T,CNOT} i.e. {Hadamard, Toffoli, Controlled Not} form a universal gate set.
 As described in **(2)**, a quantum algorithm comprises of 3 important steps - 1. encoding of the data, 2. sequence of quantum gates applied to the set of input qubits, and 3. measurements of one or more of the qubits at the end to obtain a classically interpretable result.
-From a classical computing point of view,  graph problems such as TSP are NP-hard combinatorial optimization problems with various classical approaches such as branch-and-bound algorithms as well as heuristics and approximation algorithms being used to yield good solutions **(3)**
 
-We will look at several of such optimization problems and try to determine and analyse the  computational complexity of the quantum implementation of such algorithms and check whether if any such implementations would belong to the BQP ( bounded-error quantum polynomial time ) complexity class.
+From a classical computing point of view,  graph problems such as TSP are NP-hard combinatorial optimization problems with various classical approaches such as branch-and-bound algorithms as well as heuristics and approximation algorithms being used to yield good solutions **(3)**. We will look at several of such optimization problems and try to determine and analyse the  computational complexity of the quantum implementation of such algorithms and check whether if any such implementations would belong to the BQP ( bounded-error quantum polynomial time ) complexity class.
 
 
 
