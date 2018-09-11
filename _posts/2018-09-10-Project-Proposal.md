@@ -90,10 +90,45 @@ The project vision will be divided into a series of iterative step-projects, one
 
 | **Step #** | **Step Project overview** | **Predicted completion dates** |
 | ------ | --------------------- | -------------------------- |
-| 1      | Determination of graph algorithms most viable for implementation on a universal quantum computer. Development and research into improving the efficiency and complexity of quantum algorithms. | September 30, 2018
-| 2      |
-| 3      |
-| 4      | 
+| 1      | `Determination of graph algorithms most viable for implementation on a universal quantum computer. Development and research into improving the efficiency and complexity of quantum algorithms.` | September 30, 2018 |
+| 2      | `Setup of development and execution environments for the quantum simulators and actual machines ( including any optimizations to the simulators inferred from the design of the quantum graph algorithms such as gate delays, transformation sequencing etc. )` | October 20, 2018 |
+| 3      | `Execution and analysis of the results from the executions. Research into computational complexity classes and determining the computational complexity and feasibility of the implementations.` | November 10, 2018 |
+| 4      | `Retrospective and compilation of the findings and results including meeting reporting requirements for the course as well as analysis of the goals met, and challenges faced.` | December 05, 2018 |
+
+
+In addition, each of the step-projects will be accompanied by an initial objective brief and an ending retrospective document compiling and addressing the progress made during the step-projects.
+
+
+**7. Infrastructure, facilities and expert personnel required**
+
+The following are the initial resources expected for successful completion of the project:
+
+
+**Computing Resources**
+
+1. Cloud Access and research priority to the IBMQ5, IBMQ16 and IBM Q20 machines for the implementation, testing and analysis of the quantum algorithms on actual quantum hardware. ( Due to the restrictiveness of the access to the actual quantum hardware, the following could be fulfilled using simulators on high performance machines with the loss of analytics corresponding to the execution of the algorithm on the actual hardware. )
+
+
+**Academic Resources**
+
+1. Access to articles and journals actively covering the most recent advancements in Quantum Computing ( partly fulfilled by UofM library access.)
+2. Active correspondence with experts in the field of Quantum Algorithms and Computations as well as academic resources available in the computer science department at the University of Manitoba in the fields of high performance computing ( for universal quantum computer simulators ) and algorithm development ( for developing efficient algorithms for deployment ).
+
+**8. Outcome and Deliverables**
+
+
+Outcome: Brief analysis of implementations of the graph algorithms on actual and simulated universal quantum computers including the deployment feasibility on actual quantum hardware, limitations due to error correction methods currently used, computational complexity of such algorithms and an overview of near-future applications.
+
+
+Deliverables: Deployment of the theorized quantum algorithms on actual and simulated universal quantum computers. Retrospective of the important learnings worthy of publication and continued future research.
+
+
+Note: The findings from this research effort will provide a very good head start for the proposed research project for COMP 4560 – Undergraduate Industrial Project in the field of Quantum Machine Learning.
+
+
+
+
+
 
 
 
