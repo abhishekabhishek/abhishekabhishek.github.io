@@ -1,6 +1,6 @@
 ---
 layout: post
-title: COMP 4520 - Undergraduate Honours Project Proposal
+title: Project Proposal
 ---
 # COMP 4520 – Undergraduate Honours Project Proposal
 
