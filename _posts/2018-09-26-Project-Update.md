@@ -19,7 +19,7 @@ title: Project Update - Sept 26, 2018
 
 ### Objectives for the past 2 weeks<a id='objectives_for_the_past_2_weeks'></a>
 
-> 1. **Detemine the background research conducted in the field of exploring graph properties on Quantum Computers**
+> 1. **Determine the background research conducted in the field of exploring graph properties on Quantum Computers**
 
 A survey of the current literature on quantum algorithms for graph properties was conducted and the initial implementation of the algorithms is in progess to be tested on the Q backends. The following are some of the algorithms which have been researched :
 
@@ -34,7 +34,7 @@ c. Quantum Minimal Spanning Tree
 
 General Reference: https://arxiv.org/pdf/1804.03719.pdf
 
-> 2. **Setup the experimentation environment for testing algorithm implementations**
+> **2. Setup the experimentation environment for testing algorithm implementations**
 
 This section included research on the quantum computing backends offered, and the accessibility and viability for execution of the developed programs on those backends.
 
@@ -196,7 +196,7 @@ class Entanglement:
 
 These programs are two of the several developed during the testing phase, more will be posted as soon as the result from the executions become available and suitable for posting.
 
-> 3. **Build up on background knowledge on quantum algorithm development**
+>  **3. Build up on background knowledge on quantum algorithm development**
 
 This section primarily includes building up on the theoretical aspects of Quantum Computing using educational resources currently available. 
 
@@ -220,7 +220,7 @@ Currently enrolled in MIT's Quantum Computing course series offered on edX ( MIT
 [Quantum Information Science 1, Part 1](https://www.edx.org/course/quantum-information-science-i)
 
 
-4. **Determine the short-term focus of the project**
+> **4. Determine the short-term focus of the project**
 
 The short-term focus of the project is determined to be on surveying current quantum algorithms developed for searching graph properties such as Minimum Spanning Tree, Shortest Path, Bipartite graphs, Finding subgraphs etc. One of the common characteristic in the algorithms developed is their unviability in implementation on Quantum machines due to the depth of the circuits.
 
@@ -231,10 +231,10 @@ One of the opportunity for improving the algorithms is potentially to test the i
 
 ### Current Status<a id='current_status'></a>
 
-1. **Current short-term research focus**
+> **1.. Current short-term research focus**
 
 - Current focus will be on researching classical analogues to the Quantum algorithms developed for exploring graph properties, such as classical random walks, markov chains to gain a deeper understanding of the problem at hand as well as developing and teesting executions.
 
-2. **Current challenges and their foreseeable solutions**
+> **2. Current challenges and their foreseeable solutions**
 
 - N/A
