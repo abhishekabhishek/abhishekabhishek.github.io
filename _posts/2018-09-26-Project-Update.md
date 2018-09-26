@@ -233,7 +233,7 @@ One of the opportunity for improving the algorithms is potentially to test the i
 
 1. **Current short-term research focus**
 
-- Current focus will be on researching classical analogues to the Quantum algorithms developed for exploring graph properties, such as classical random walks, markov chains to gain a deeper understanding of the problem at hand.
+- Current focus will be on researching classical analogues to the Quantum algorithms developed for exploring graph properties, such as classical random walks, markov chains to gain a deeper understanding of the problem at hand as well as developing and teesting executions.
 
 2. **Current challenges and their foreseeable solutions**
 
