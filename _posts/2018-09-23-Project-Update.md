@@ -106,6 +106,8 @@ class BackendManager:
 
 The program below is one of several programs used to develop familiarity with the module and test the algorithms. The following program is used to create and entanglment of two qubits and perform a measurement.
 
+The execution was tested on different backends both local and remote and the results were compared.
+
 ```python
 #!/home/q/.conda/envs/qdev/bin/python3
 # -*- coding: utf-8 -*-
@@ -180,7 +182,22 @@ class Entanglement:
         circuit_drawer(self.circuit)
 ```
 
+These programs are two of the several developed during the testing phase, more will be posted as soon as the result from the executions become available and suitable for posting.
+
 3. **Build up on background knowledge on quantum algorithm development**
+
+This section primarily includes building up on the theoretical aspects of Quantum Computing using educational resources currently available. 
+
+**Textbooks**
+Since there does not currently exist a braod literature on Quantum Computing, one of the steps was to determine the standard reference textbook for the project with the most up-to-date literature. The following textbooks were shortlisted :
+
+1. [Quantum Computing: A Gentle Introduction](https://www.amazon.ca/Quantum-Computing-Introduction-Eleanor-Rieffel/dp/0262526670), Authors - Eleanor Rieffer and Wolfgang Polak, 2014 Edition
+
+2. [Quantum Computation and Quantum Information: 10th Anniversary Edition](https://www.amazon.ca/Quantum-Computation-Information-10th-Anniversary/dp/1107002176/ref=dp_ob_title_bk), Authors - Michael A. Nielsen and Issac L. Chuang, 2010 Edition
+
+3. [Quantum Machine Learning: What Quantum Computing Means to Data Mining](https://www.amazon.ca/Quantum-Machine-Learning-Computing-Mining/dp/0128100400), Author - Peter Wittek, 2016 Edition
+
+After a very brief survey, the 2nd entry in the list [Quantum Computation and Quantum Information: 10th Anniversary Edition](https://www.amazon.ca/Quantum-Computation-Information-10th-Anniversary/dp/1107002176/ref=dp_ob_title_bk) was found out to be the most comprehensive of all with a wide range of fundamental quantum computing concepts covered.
 
 4. **Determine the short-term focus of the project**
   
