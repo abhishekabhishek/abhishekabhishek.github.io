@@ -26,7 +26,15 @@ title: Project Update - Sept 26, 2018
 
 This section included research on the quantum computing backends offered, and the accessibility and viability for execution of the developed programs on those backends.
 
-As was determined in the research proposal, we have decided to use ![IBM Q](https://quantumexperience.ng.bluemix.net/qx/experience) as the backend provider. The access process included creating IBM CLoud accounts and 
+As was determined in the research proposal, we decided to use [IBM Q](https://quantumexperience.ng.bluemix.net/qx/experience) as the backend provider. The access process included creating IBM Cloud accounts and obtaining and configuring API token keys for the backend.
+
+The decision to choose the IBM Q backend was primarily due to the usage of the Q servers in most published research and the availibility of open-source framework for fast and efficient implementation and deployment of quantum algorithms.
+
+To begin and configure the access to the backend servers, programs were developed and scripted in Python to test some of the basic algorithms as well as to test the accessibility of the servers.
+
+Below are some of the sample programs developed in this phase :
+
+The program below is used to maintain and test access to the Q backend servers. The runtime environment is Python using Qiskit modules by IBM. The methods list the backends available as well as determine the least busy backend to allow for faster access with less wait times.
 
 ```python
 #!/home/q/.conda/envs/qdev/bin/python3
@@ -95,6 +103,8 @@ class BackendManager:
         
         return least_busy_backend
 ```
+
+The program below is one of several programs used to develop familiarity with the module and test the algorithms. The following program is used to create and entanglment of two qubits and perform a measurement.
 
 ```python
 #!/home/q/.conda/envs/qdev/bin/python3
