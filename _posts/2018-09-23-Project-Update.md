@@ -3,7 +3,7 @@ layout: post
 title: Project Update - Sept 23, 2018
 ---
 
-## COMP 4520 : Project Update - Sept 23, 2018
+## COMP 4520 - Project Update - Sept 23, 2018
 
 ----
 
@@ -17,7 +17,14 @@ title: Project Update - Sept 23, 2018
 
 ----
 
+### Objectives for the past 2 weeks<a id='objectives_for_the_past_2_weeks'><\a>
+  
+----
 
+### Current Status<a id='current_status'><\a>
 
+----
 
+### Objectives for the next 2 weeks<a id='objectives_for_the_next_2_weeks'><\a>
 
+----
