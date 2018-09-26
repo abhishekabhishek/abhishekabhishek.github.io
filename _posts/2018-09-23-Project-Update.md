@@ -184,14 +184,14 @@ class Entanglement:
 
 These programs are two of the several developed during the testing phase, more will be posted as soon as the result from the executions become available and suitable for posting.
 
-3. **Build up on background knowledge on quantum algorithm development**
+> 3. **Build up on background knowledge on quantum algorithm development**
 
 This section primarily includes building up on the theoretical aspects of Quantum Computing using educational resources currently available. 
 
 **Textbooks**
 
 
-Since there does not currently exist a braod literature on Quantum Computing, one of the steps was to determine the standard reference textbook for the project with the most up-to-date literature. The following textbooks were shortlisted :
+Since there does not currently exist a broad literature on Quantum Computing, one of the steps was to determine the standard reference textbook for the project with the most up-to-date literature. The following textbooks were shortlisted :
 
 1. [Quantum Computing: A Gentle Introduction](https://www.amazon.ca/Quantum-Computing-Introduction-Eleanor-Rieffel/dp/0262526670), Authors - Eleanor Rieffer and Wolfgang Polak, 2014 Edition
 
@@ -209,6 +209,8 @@ Currently enrolled in MIT's Quantum Computing course series offered on edX ( MIT
 
 
 4. **Determine the short-term focus of the project**
+
+
   
 ----
 
