@@ -19,10 +19,22 @@ title: Project Update - Sept 26, 2018
 
 ### Objectives for the past 2 weeks<a id='objectives_for_the_past_2_weeks'></a>
 
-1. **Detemine the background research conducted in the field of exploring graph properties on Quantum Computers**
+> 1. **Detemine the background research conducted in the field of exploring graph properties on Quantum Computers**
 
+A survey of the current literature on quantum algorithms for graph properties was conducted and the initial implementation of the algorithms is in progess to be tested on the Q backends. The following are some of the algorithms which have been researched :
 
-2. **Setup the experimentation environment for testing algorithm implementations**
+a. Quantum search using Grover's algorithm
+    - Uses an adjacency matrix model for graphs and constructs a oracle as a part of Grover's search algorithm.
+
+b. Quantum Random Walks
+    - Analogue to classical random walk and markov chains. Can be sub-divided into Discrete Time Quantum Walk and      Continuous Time Quantum Walk.
+
+c. Quantum Minimal Spanning Tree
+    - Combines [Boruivka's algorithm](https://en.wikipedia.org/wiki/Bor%C5%AFvka%27s_algorithm) with [Grover's search](https://arxiv.org/abs/quant-ph/9605043)
+
+General Reference: https://arxiv.org/pdf/1804.03719.pdf
+
+> 2. **Setup the experimentation environment for testing algorithm implementations**
 
 This section included research on the quantum computing backends offered, and the accessibility and viability for execution of the developed programs on those backends.
 
@@ -210,6 +222,9 @@ Currently enrolled in MIT's Quantum Computing course series offered on edX ( MIT
 
 4. **Determine the short-term focus of the project**
 
+The short-term focus of the project is determined to be on surveying current quantum algorithms developed for searching graph properties such as Minimum Spanning Tree, Shortest Path, Bipartite graphs, Finding subgraphs etc. One of the common characteristic in the algorithms developed is their unviability in implementation on Quantum machines due to the depth of the circuits.
+
+One of the opportunity for improving the algorithms is potentially to test the implementaions on simulator and research on decreasing the circuit depth for making the algorithms viable to be executed on quantum hardware currently available.
 
   
 ----
@@ -218,16 +233,8 @@ Currently enrolled in MIT's Quantum Computing course series offered on edX ( MIT
 
 1. **Current short-term research focus**
 
+- Current focus will be on researching classical analogues to the Quantum algorithms developed for exploring graph properties, such as classical random walks, markov chains to gain a deeper understanding of the problem at hand.
+
 2. **Current challenges and their foreseeable solutions**
 
-----
-
-### Objectives for the next 2 weeks<a id='objectives_for_the_next_2_weeks'></a>
-
-1. **Project topics to research**
-
-2. **Expected challenges**
-
-3. **Research plan**
-
-----
+- N/A
