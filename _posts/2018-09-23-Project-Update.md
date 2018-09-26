@@ -21,7 +21,12 @@ title: Project Update - Sept 26, 2018
 
 1. **Detemine the background research conducted in the field of exploring graph properties on Quantum Computers**
 
+
 2. **Setup the experimentation environment for testing algorithm implementations**
+
+This section included research on the quantum computing backends offered, and the accessibility and viability for execution of the developed programs on those backends.
+
+As was determined in the research proposal, we have decided to use ![IBM Q](https://quantumexperience.ng.bluemix.net/qx/experience) as the backend provider. The access process included creating IBM CLoud accounts and 
 
 ```python
 #!/home/q/.conda/envs/qdev/bin/python3
