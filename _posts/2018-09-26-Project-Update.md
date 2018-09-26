@@ -224,7 +224,7 @@ Currently enrolled in MIT's Quantum Computing course series offered on edX ( MIT
 
 The short-term focus of the project is determined to be on surveying current quantum algorithms developed for searching graph properties such as Minimum Spanning Tree, Shortest Path, Bipartite graphs, Finding subgraphs etc. One of the common characteristic in the algorithms developed is their unviability in implementation on Quantum machines due to the depth of the circuits.
 
-One of the opportunity for improving the algorithms is potentially to test the implementaions on simulator and research on decreasing the circuit depth for making the algorithms viable to be executed on quantum hardware currently available.
+One of the opportunity for improving the algorithms is potentially to test the implementations on simulator and research on decreasing the circuit depth for making the algorithms viable to be executed on quantum hardware currently available.
 
   
 ----
@@ -233,7 +233,7 @@ One of the opportunity for improving the algorithms is potentially to test the i
 
 > **1.. Current short-term research focus**
 
-- Current focus will be on researching classical analogues to the Quantum algorithms developed for exploring graph properties, such as classical random walks, markov chains to gain a deeper understanding of the problem at hand as well as developing and teesting executions.
+- Current focus will be also be on researching classical analogues to the Quantum algorithms developed for exploring graph properties, such as classical random walks, markov chains to gain a deeper understanding of the problem at hand as well as developing and teesting executions.
 
 > **2. Current challenges and their foreseeable solutions**
 
