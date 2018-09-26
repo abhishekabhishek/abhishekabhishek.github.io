@@ -91,6 +91,80 @@ class BackendManager:
         return least_busy_backend
 ```
 
+```python
+#!/home/q/.conda/envs/qdev/bin/python3
+# -*- coding: utf-8 -*-
+
+# Basic OS modules
+import time
+
+# Basic qiskit modules
+from qiskit import ClassicalRegister, QuantumRegister, QuantumCircuit, execute
+
+# Basic visualiztion tools
+from qiskit.tools.visualization import plot_histogram, circuit_drawer
+
+# Class - entanglement
+# Purpose - Create a quantum circuit to test entanglement on local simulator 
+# and remote Q machines
+
+class Entanglement:
+    
+    # Initialize the class with the skeleton circuit for the operations defined
+    # by the number of Quantum and Classical registers
+    def __init__(self, qreg=2, creg=2):
+        
+        # Initialize the Quantum Circuit
+    
+        # Create a quantum register "qr" with qreg qubits
+        qr = QuantumRegister(qreg)
+        
+        # Create a classical register called "cr" with creg bits
+        cr = ClassicalRegister(creg)
+        
+        # Create a Quantum Circuit involving "qr" and "cr"
+        self.circuit = QuantumCircuit(qr, cr)
+        
+        # Add the operations to the Quantum circuit 
+        
+        # Add a Hadamard gate on qubit 0, putting this state in a superposition
+        self.circuit.h(qr[0])
+        
+        # Add a CX (CNOT) gate on control qubit 0 and target qubit 1, putting
+        # the two qubits in a Bell state.
+        self.circuit.cx(qr[0], qr[1])
+        
+        # Add a Measure gate to see the state
+        self.circuit.measure(qr, cr)
+        
+    # Create a job on the backend specified in the parameter, execute the job 
+    # and plot the results
+    def create_execute_circuit(self, backend_to_use):
+        
+        # Create a new job on the backend to use
+        job_exp = execute(self.circuit, backend=backend_to_use, shots=1024, max_credits=3)
+
+        # Determine the time constraints for the execution
+        lapse = 0
+        interval = 30
+    
+        # While loop to run until the job is executed
+        while not job_exp.done:
+            print('Status @ {} seconds'.format(interval * lapse))
+            print(job_exp.status)
+            time.sleep(interval)
+            lapse += 1
+        
+        print(job_exp.status)
+        plot_histogram(job_exp.result().get_counts(self.circuit))
+
+    # Plot the quantum entanglement circuit
+    # Parameters - Pointer to the self object to access the circuit object to 
+    # plot
+    def plot_circuit(self):
+        circuit_drawer(self.circuit)
+```
+
 3. **Build up on background knowledge on quantum algorithm development**
 
 4. **Determine the short-term focus of the project**
