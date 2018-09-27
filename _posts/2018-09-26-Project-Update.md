@@ -19,7 +19,7 @@ title: Project Update - Sept 26, 2018
 
 ### Objectives for the past 2 weeks<a id='objectives_for_the_past_2_weeks'></a>
 
-> 1. **Determine the background research conducted in the field of exploring graph properties on Quantum Computers**
+> **1. Determine the background research conducted in the field of exploring graph properties on Quantum Computers**
 
 A survey of the current literature on quantum algorithms for graph properties was conducted and the initial implementation of the algorithms is in progess to be tested on the Q backends. The following are some of the algorithms which have been researched :
 
@@ -32,7 +32,7 @@ b. Quantum Random Walks
 c. Quantum Minimal Spanning Tree
     - Combines [Boruivka's algorithm](https://en.wikipedia.org/wiki/Bor%C5%AFvka%27s_algorithm) with [Grover's search](https://arxiv.org/abs/quant-ph/9605043)
 
-General Reference: https://arxiv.org/pdf/1804.03719.pdf
+General Reference: [https://arxiv.org/pdf/1804.03719.pdf](https://arxiv.org/pdf/1804.03719.pdf)
 
 > **2. Setup the experimentation environment for testing algorithm implementations**
 
