@@ -17,20 +17,14 @@ title: Project Update - October 08, 2018
 
 ### Objectives for the past 2 weeks<a id='objectives_for_the_past_2_weeks'></a>
 
-> **1. **
+> **1. Gain a deeper understanding of Grover's algorithm and its applications to Graph Algorithms**
 
-A survey of the current literature on quantum algorithms for graph properties was conducted and the initial implementation of the algorithms is in progess to be tested on the Q backends. The following are some of the algorithms which have been researched :
+Originally introduced in the following research paper - A fast quantum mechanical algorithm for database search by Lov K. Grover (1996) [https://arxiv.org/abs/quant-ph/9605043](https://arxiv.org/abs/quant-ph/9605043). Grover's algorithm is a quantum search algorithm which offers a polynomial speedup with exponential runtime limit of O(sqrt(n)) over the best known classical search algorithm, exploiting quantum properties such as entanglement and superposition.
 
-a. Quantum search using Grover's algorithm
-    - Uses an adjacency matrix model for graphs and constructs a oracle as a part of Grover's search algorithm.
+Many quantum graph algorithms researched so far either directly use Grover's algorithm or use some variation of it specifically for the purpose of spanning or walking graphs to search for some properties, which allow a speed up over the best classical algorithms while searching for graph properties.
 
-b. Quantum Random Walks
-    - Analogue to classical random walk and markov chains. Can be sub-divided into Discrete Time Quantum Walk and      Continuous Time Quantum Walk.
 
-c. Quantum Minimal Spanning Tree
-    - Combines [Boruivka's algorithm](https://en.wikipedia.org/wiki/Bor%C5%AFvka%27s_algorithm) with [Grover's search](https://arxiv.org/abs/quant-ph/9605043)
 
-General Reference: [https://arxiv.org/pdf/1804.03719.pdf](https://arxiv.org/pdf/1804.03719.pdf)
 
 > **2. Setup the experimentation environment for testing algorithm implementations**
 
