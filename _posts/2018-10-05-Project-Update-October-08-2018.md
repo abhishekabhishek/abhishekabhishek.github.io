@@ -23,13 +23,13 @@ Originally introduced in the following research paper - A fast quantum mechanica
 
 Many quantum graph algorithms researched so far either directly use Grover's algorithm or use some variation of it specifically for the purpose of spanning or walking graphs to search for some properties, which allow a speed up over the best classical algorithms while searching for graph properties.
 
-The initial state is constructed applying a Hadamard transform (H⊗n) on|x〉 and applying a Pauli X transform followed by a Hadamard transform (HX) to q, where q is the ancillary qubit.
+The initial state is constructed applying a Hadamard transform (H⊗n) on\|x〉 and applying a Pauli X transform followed by a Hadamard transform (HX) to q, where q is the ancillary qubit.
 
 The algorithm uses a Quantum oracle which can be developed classically before apply the algorithm. For applying Grover's algorithm to grpahs, we use an adjacency matrix model for graphs and construct a oracle using the adjacency matrix.
 
-Once the oracle is constructed, the Grover's operator, G = (2|ψ〉〈ψ|−I)O where I is the Identity Operator and O is the Oracle Operator is applied to the initial state.
+Once the oracle is constructed, the Grover's operator, G = (2\|ψ〉〈ψ\|−I)O where I is the Identity Operator and O is the Oracle Operator is applied to the initial state.
 
-This allows to increase the amplitude of|x∗〉 while decreasing the amplitude of the other states, where |x*> corresponds to the qubit string of the item being search for in the database.
+This allows to increase the amplitude of\|x∗〉 while decreasing the amplitude of the other states, where \|x*> corresponds to the qubit string of the item being search for in the database.
 
 The algorithm has far more applications than just unstructured database querying and belongs to a class of Quantum Search Algorithms which we will explore as a part of the research effort.
 
