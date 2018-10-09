@@ -53,9 +53,9 @@ In addition, began research on Quantum Random Walks to understand the underlying
 
 > **1.. Current short-term research focus**
 
-- Current focus will be to complete the research on Grover's Algorithm and prepare a presentation on some fundamental algorithms for the Project supervisor and any interested candidates in the research group and develop executable Python programs which construct the circuit and execute on local QASM simulators and remote Quantum machines, as well as continue research on classical graph searching algorithms which use randomization to find overlap between Quantum randomized algorithms and Classical randomized algorithms to determine any improvements over classical methods.
+Current focus will be to complete the research on Grover's Algorithm and prepare a presentation on some fundamental algorithms for the Project supervisor and any interested candidates in the research group and develop executable Python programs which construct the circuit and execute on local QASM simulators and remote Quantum machines, as well as continue research on classical graph searching algorithms which use randomization to find overlap between Quantum randomized algorithms and Classical randomized algorithms to determine any improvements over classical methods.
 
 > **2. Current challenges and their foreseeable solutions**
 
-- N/A
+N/A
 
