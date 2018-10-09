@@ -29,7 +29,7 @@ The algorithm uses a Quantum oracle which can be developed classically before ap
 
 Once the oracle is constructed, the Grover's operator, G = (2\|ψ〉〈ψ\|−I)O where I is the Identity Operator and O is the Oracle Operator is applied to the initial state.
 
-This allows to increase the amplitude of\|x∗〉 while decreasing the amplitude of the other states, where \|x*> corresponds to the qubit string of the item being search for in the database.
+This allows to increase the amplitude of \|x∗〉 while decreasing the amplitude of the other states, where \|x*> corresponds to the qubit string of the item being search for in the database.
 
 The algorithm has far more applications than just unstructured database querying and belongs to a class of Quantum Search Algorithms which we will explore as a part of the research effort.
 
