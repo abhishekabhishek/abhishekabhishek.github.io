@@ -50,3 +50,5 @@ Let 1,2,...,w,..,N-1,N be the indices of an unstructured database where w corres
 
 5. It can be theoretically shown that sqrt(N) operations of the operators can amplify the amplitude such the state \|w> is obtained from measurement with near-certainity.
 
+6. 
+
