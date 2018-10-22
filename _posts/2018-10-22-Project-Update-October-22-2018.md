@@ -3,7 +3,6 @@ layout: post
 title: Project Update - October 22, 2018
 ---
 
-
 ## COMP 4520 - Project Update - October 22, 2018
 
 ----
