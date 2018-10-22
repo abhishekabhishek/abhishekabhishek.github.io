@@ -64,5 +64,5 @@ This would include determining the adjacency matrix of a graph, and using that t
 
 > **2. Determine the complexity of implementing Grover's search algorithm for a Graph spanning problem
 
-Currently working on implementing Grover's search in conjunction with Djikstra's Algorithm to determine the viability of implementing the Shortest Path Problem.
+Currently working on implementing Grover's search in conjunction with Djikstra's Algorithm to determine the viability of implementing the Quantum search algorithm for the Shortest Path Problem.
 
