@@ -48,5 +48,21 @@ Let 1,2,...,w,..,N-1,N be the indices of an unstructured database where w corres
 
 4. If we perform a measurement on the state \|ψ〉, we have 1\N probability of retrieving the item currently being searched. However, the procedure of amplitude amplification allows us to significantly improve this probability by apply two operators, U<sub>f</sub> and U<sub>s</sub> on the initial state. By applying these two operators t times to the inital state, the procedure amplifies the amplitude of the \|w> state which due to the normalization property of the wavefunction \|ψ〉, reduces the probability of the rest of the states, \|x>.
 
-5. It can be theoretically shown that sqrt(N) operations of the operators can amplify the amplitude such the state \|w> is obtained from measurement with near-certainity.
+5. It can be theoretically shown that sqrt(N) operations of the operators can amplify the amplitude such the state \|w> can obtained through measurement with near-certainity. Each application of the combined operator corresponds to 1 timestep which gives use the therotical worst-time complexity of O(sqrt(N)).
+
+**d. Algorithm Implementation details**
+
+**e. Algorithm Python implementation**
+
+To be updated
+
+### Objectives for the next 2 weeks
+
+> **1. Implement complex variants of Grover's Algorithm**
+
+This would include determining the adjacency matrix of a graph, and using that to construct an oracle function which could be used in a Quantum search circuit. Additionaly, would have to implement sub-routines to determine the item to be searched in the superposition states.
+
+> **2. Determine the complexity of implementing Grover's search algorithm for a Graph spanning problem
+
+Currently working on implementing Grover's search in conjunction with Djikstra's Algorithm to determine the viability of implementing the Shortest Path Problem.
 
