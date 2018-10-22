@@ -16,7 +16,7 @@ title: Project Update - October 22, 2018
 
 ### Accomplished in the past 2 weeks<a id='accomplished_in_the_past_2_weeks'></a>
 
-> **1. Finished the research on Grover's Algorithm and implementations on IBM Q**
+> **1. Finished the research on Grover's Algorithm and initial implementations on IBM Q**
 
 **Grover's Algorithm Implementation Summary :**
 
@@ -33,7 +33,20 @@ to have a worst-case time-complexity of O(sqrt(N)).
 
 The algorithm is generic in the sense that it does not use the internal structure of the list to do the search and is therefore generalizable to other data structures.
 
-**c. Algorithm Implementaion**
+**c. Algorithm Details**
 
-...
+Let 1,2,...,w,..,N-1,N be the indices of an unstructured database where w corresponds to the index with the item being searched for.
+
+1. In order to encode the list as an input to a Quantum circuit, we use a binary encoding such that an index x belongs to the set {0,1}^n, where x is unique for each index <= N i.e. generic binary encoding for N indices in n qubits, where N = 2^n.
+
+2. We also consider the function, f such that 
+                                         f(x) = 0 for all x in [0,N] when x != w 
+                                         f(x) = 1 when x == w.
+   We use the function described above to construct a unitary operator, U<sub>f</sub> such that U<sub>f</sub> negates the amplitude for the state \|w> and leaves the amplitude for \|x> unchanged when \|x> != \|w>.
+   
+3. The initial state is constructed applying a Hadamard transform (H⊗n) to the state |0><sup>⊗n</sup> which gives us a uniform superposition \|ψ〉 with equal amplitude for each of the basis states.
+
+4. If we perform a measurement on the state \|ψ〉, we have 1\N probability of retrieving the item currently being searched. However, the procedure of amplitude amplification allows us to significantly improve this probability by apply two operators, U<sub>f</sub> and U<sub>s</sub> on the initial state. By applying these two operators t times to the inital state, the procedure amplifies the amplitude of the \|w> state which due to the normalization property of the wavefunction \|ψ〉, reduces the probability of the rest of the states, \|x>.
+
+5. It can be theoretically shown that sqrt(N) operations of the operators can amplify the amplitude such the state \|w> is obtained from measurement with near-certainity.
 
