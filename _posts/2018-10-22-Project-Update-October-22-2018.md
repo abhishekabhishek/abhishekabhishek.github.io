@@ -61,9 +61,7 @@ To be updated
 
 This would include determining the adjacency matrix of a graph, and using that to construct an oracle function which could be used in a Quantum search circuit. Additionaly, would have to implement sub-routines to determine the item to be searched in the superposition states.
 
-> **2. Determine the complexity of implementing Grover's search algorithm for a Graph spanning problem
+> **2. Determine the complexity of implementing Grover's search algorithm for a Graph spanning problem**
 
 Currently working on implementing Grover's search in conjunction with Djikstra's Algorithm to determine the viability of implementing the Quantum search algorithm for the Shortest Path Problem.
-
-6. 
 
