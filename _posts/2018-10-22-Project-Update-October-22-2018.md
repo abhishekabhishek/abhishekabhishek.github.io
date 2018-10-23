@@ -41,9 +41,9 @@ Let 1,2,...,w,..,N-1,N be the indices of an unstructured database where w corres
 2. We also consider the function, f such that 
                                          f(x) = 0 for all x in [0,N] when x != w 
                                          f(x) = 1 when x == w.
-   We use the function described above to construct a unitary operator, U<sub>f</sub> such that U<sub>f</sub> negates the amplitude for the state \|w> and leaves the amplitude for \|x> unchanged when \|x> != \|w>.
+   We use the function described above to construct a unitary operator, U<sub>f</sub> such that U<sub>f</sub> negates the amplitude for the state \|w> and leaves the amplitude for \|x> unchanged when \|x> != |w>.
    
-3. The initial state is constructed applying a Hadamard transform (H⊗n) to the state |0><sup>⊗n</sup> which gives us a uniform superposition \|ψ〉 with equal amplitude for each of the basis states.
+3. The initial state is constructed by applying a Hadamard transform (H⊗n) to the state \|0><sup>⊗n</sup> which gives us a uniform superposition \|ψ〉 with equal amplitude for each of the basis states.
 
 4. If we perform a measurement on the state \|ψ〉, we have 1\N probability of retrieving the item currently being searched. However, the procedure of amplitude amplification allows us to significantly improve this probability by apply two operators, U<sub>f</sub> and U<sub>s</sub> on the initial state. By applying these two operators t times to the inital state, the procedure amplifies the amplitude of the \|w> state which due to the normalization property of the wavefunction \|ψ〉, reduces the probability of the rest of the states, \|x>.
 
