@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Project Update - October 22, 2018
+title: Project Update - November 16, 2018
 ---
 
-## COMP 4520 - Project Update - October 22, 2018
+## COMP 4520 - Project Update - November 16, 2018
 
 ----
 ### Table of contents
