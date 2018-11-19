@@ -17,9 +17,9 @@ title: Project Update - November 02, 2018
 
 ### Accomplished in the past 2 weeks<a id='accomplished_in_the_past_2_weeks'></a>
 
-> **1. Theoretical Research on Quantum Fourier Transform*
+> **1. Theoretical Research on Quantum Fourier Transform**
 
-Quantum Fourier Tr
+Quantum Fourier Transfrom allow linear transformation on quantum bits with an exponential speedup over the classical counterpart i.e. Classical discrete fourier transform. 
 
 
 ### Objectives for the next 2 weeks
