@@ -21,7 +21,7 @@ title: Project Update - November 16, 2018
 
 **a. Introduction**
 
-The algorithm belong to a general class of Quantum Search Algorithms and can be used to speed up searching in a unstructured database quadratically. The applications can be generalized to more than just searching unstructured databases since the algorithm uses a trick known as Quantum Amplitude Amplification which serves as a general basis to obtain quantum run-time improvements.
+The algorithm belong to a general class of Quantum Search Algorithms and can be used to speed up searching in a unstructured database quadratically. The applications can be generalized to more than just searching unstructured databases since the algorithm uses a technique known as Quantum Amplitude Amplification which serves as a general basis to obtain quantum run-time improvements.
         
 **b. Time-Complexity Analysis**
    
@@ -63,4 +63,4 @@ This would include determining the adjacency matrix of a graph, and using that t
 
 > **2. Determine the complexity of implementing Grover's search algorithm for a Graph spanning problem**
 
-Currently working on implementing Grover's search in conjunction with Djikstra's Algorithm to determine the viability of implementing the Quantum search algorithm for the Shortest Path Problem.
+Currently working on implementing Grover's search in conjunction with Djikstra's Algorithm to determine the viability of implementing the Quantum search algorithm for the Shortest Path Problem. 
