@@ -8,7 +8,7 @@ title: A Very Short Introduction to Quantum Machine Learning
 ----
 ### Table of contents
 
-#### 0. Introduction(#introduction)
+#### 0. [Introduction](#introduction)
 
 #### 1. [What is Machine Learning](#what_is_machine_learning)
 
