@@ -8,7 +8,7 @@ title: Introduction to Quantum Neural Networks
 ----
 ### Table of contents
 
-#### 0. Introduction(#introduction)
+#### 0. [Introduction](#introduction)
 
 #### 1. [What is a Neural Network](#what_is_a_neural_network)
 
