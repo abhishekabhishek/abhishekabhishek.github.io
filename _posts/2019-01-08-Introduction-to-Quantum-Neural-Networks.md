@@ -23,7 +23,7 @@ title: Introduction to Quantum Neural Networks
 
 ### Introduction<a id='introduction'></a>
 
-This is the outline of an upcoming blog post on my research on Quantum neural networks. The post is due by Wednesday January 09, 2018. 
+This is the outline of an upcoming blog post on my research on Quantum neural networks. The post is due by Friday January 11, 2018. 
 In this post, I will discuss the recent discoveries and implementations of neural networks on quantum processors such as the IBM Q.
 We will discuss in detail the research by Francesco Tacchino et al. (https://arxiv.org/pdf/1811.02266.pdf) on the artificial quantum
 neuron.
