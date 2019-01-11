@@ -2,7 +2,7 @@
 layout: post
 title: Industrial Project Proposal
 ---
-## COMP 4520 – Undergraduate Industrial Project Proposal
+## COMP 4560 – Undergraduate Industrial Project Proposal
 
 ### Title : Quantum Perceptron on the IBM Q
 ### Abhishek ., 7803917
