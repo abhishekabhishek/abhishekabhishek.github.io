@@ -36,7 +36,15 @@ A perceptron is the simplest model of a neural network which is a binary classif
 
 ### Classical Perceptron<a id='classical_perceptron'></a>
 
-In the following, we will discuss the mathematics for the classical perceptron and the perceptron learning algorithm.
+In the following, we will discuss the mathematics behind the classical perceptron and the perceptron learning algorithm.
+
+The input is a real-valued n-dimensional vector, 
+
+<img src="https://latex.codecogs.com/gif.latex?X&space;=&space;\begin{bmatrix}&space;x_1\\&space;x_2\\&space;.\\&space;.\\&space;x_n\\&space;\end{bmatrix}" title="X = \begin{bmatrix} x_1\\ x_2\\ .\\ .\\ x_n\\ \end{bmatrix}" />
+
+The weights of the connection between the inputs and the output are given by a real-valued vectors with the same dimensions as the input vector.
+
+<img src="https://latex.codecogs.com/gif.latex?W&space;=&space;\begin{bmatrix}&space;w_1\\&space;w_2\\&space;.\\&space;.\\&space;w_n\\&space;\end{bmatrix}" title="W = \begin{bmatrix} w_1\\ w_2\\ .\\ .\\ w_n\\ \end{bmatrix}" />
 
 
 ### Quantum Perceptron<a id='quantum_perceptron'></a>
