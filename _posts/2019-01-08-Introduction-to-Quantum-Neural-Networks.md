@@ -1,46 +1,50 @@
 ---
 layout: post
-title: Introduction to Quantum Neural Networks
+title: Introduction to Quantum Perceptrons
 ---
 
-## Introduction to Quantum Neural Networks
+## Introduction to Quantum Perceptrons
 
 ----
 ### Table of contents
 
-#### 0. [Introduction](#introduction)
+#### [Introduction](#introduction)
 
-#### 1. [What is a Neural Network](#what_is_a_neural_network)
+#### [What is a Perceptron](#what_is_a_neural_network)
 
-#### 2. [Classical Perceptron](#classical_perceptron)
+#### [Classical Perceptron](#classical_perceptron)
 
-#### 3. [Quantum Perceptron](#quantum_perceptron)
+#### [Quantum Perceptron](#quantum_perceptron)
 
-#### 4. [Classical Neural Networks](#classical_neural_networks)
+#### [Acknowledgements](#acknowledgements)
 
-#### 5. [Quantum Neural Networks](#quantum_neural_networks)
+#### [References](#references)
 ----
 
 ### Introduction<a id='introduction'></a>
 
+This post is about Quantum Perceptrons. In particular, we will discuss several recent models which have presented by researchers around the world for implementing perceptrons on quantum information processing devices. We will start with a very brief history of the classical perceptron and the perceptron learning algorithm. Then, we will consider the mathematical foundation of the classical perceptron and the perceptron learning algorithm. From there, we will switch to the quantum variants of the perceptron and discuss the models and learning algorithms presented in the recent years.
+
+### What is a Perceptron ?<a id='what_is_a_neural_network'></a>
+
+A perceptron is the simplest model of a neural network which is a binary classifier. It consists of an input layer with n inputs, an output neuron, the weighted connections between the inputs and the output neuron and a weighted bias connection to the output neuron. The perceptron algorithm was invented by American Psychologist [Frank Rosenbaltt](https://en.wikipedia.org/wiki/Frank_Rosenblatt) in 1957. The diagram below shows the architecture of the original perceptron.
 
 
-### What is a Neural Network<a id='what_is_a_neural_network'></a>
+![][single_layer_perceptron_link]
 
-To be updated
+[single_layer_perceptron_link]:https://raw.githubusercontent.com/abhishekabhishek/abhishekabhishek.github.io/master/_posts/post_images/2019-01-08/single_layer_perceptron.PNG "Single Layer Perceptron"
 
 ### Classical Perceptron<a id='classical_perceptron'></a>
 
-To be updated
+In the following, we will discuss the mathematics for the classical perceptron and the perceptron learning algorithm.
+
 
 ### Quantum Perceptron<a id='quantum_perceptron'></a>
 
 To be updated
 
-### Classical Neural Networks<a id='classical_neural_networks'></a>
+### Acknowledgements<a id='acknowledgements'></a>
 
-To be updated
+### References<a id='references'></a>
 
-### Quantum Neural Networks<a id='quantum_neural_networks'></a>
 
-To be updated
