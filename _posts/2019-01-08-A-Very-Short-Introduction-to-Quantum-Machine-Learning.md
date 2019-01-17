@@ -25,10 +25,7 @@ title: A Very Short Introduction to Quantum Machine Learning
 
 ### Introduction<a id='introduction'></a>
 
-This is the outline of an upcoming blog post on my research on Quantum machine learning. The post is due by Wednesday 
-January 17, 2018.  In the following, I will discuss the recent advancements in the discovery of machine learning algorithms
-specifically how quantum computers can be used to provide speed up to classical machine learning algorithms and the underlying
-principles that guide the research into these methods.
+This is the outline of an upcoming blog post on my research on Quantum machine learning. In the following, I will discuss the recent advancements in the discovery of machine learning algorithms specifically how quantum computers can be used to provide speed up to classical machine learning algorithms and the underlying principles that guide the research into these methods.
 
 A more detailed and comprehensive study on this subject can be found here : https://arxiv.org/pdf/1611.09347.pdf
 
