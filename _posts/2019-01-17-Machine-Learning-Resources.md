@@ -2,7 +2,7 @@
 layout: post
 title: Machine Learning Resources
 ---
-## Machine Learning Resources
+# Machine Learning Resources
 
 An exhaustive list of machine learning resources I thoroughly use for my research.
 
@@ -13,7 +13,7 @@ Self-organization is a key component of good research. As one digs deeper into a
 The following is a list of resources that I have used in the past and am currently using for my research into applied recurrent neural networks for human activity recognition in a home-based environment.
 
 ---
-# Machine Learning - General
+# Machine Learning
 ---
 
 ### Articles
