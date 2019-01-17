@@ -55,7 +55,9 @@ To be updated.
 ### Implementations
 
 1. Library documentations :
+
 > a. Keras - https://keras.io/
+
 > b. TensorFlow - https://www.tensorflow.org/api_docs/python/
 
 ---
