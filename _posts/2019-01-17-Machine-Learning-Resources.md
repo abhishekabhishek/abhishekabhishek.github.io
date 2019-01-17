@@ -22,7 +22,7 @@ The following is a list of resources that I have used in the past and am current
 
 1. CSC2535 - Advanced Machine Learning, University of Toronto
 
-Webpage - https://www.cs.toronto.edu/~hinton/csc2535/lectures.html
+> Webpage - https://www.cs.toronto.edu/~hinton/csc2535/lectures.html
 
 Instructor - Dr. Geoffrey Hinton
 
