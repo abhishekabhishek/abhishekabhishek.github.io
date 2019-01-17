@@ -24,19 +24,19 @@ The following is a list of resources that I have used in the past and am current
 
 > Webpage - https://www.cs.toronto.edu/~hinton/csc2535/lectures.html
 
-Instructor - Dr. Geoffrey Hinton
+> Instructor - Dr. Geoffrey Hinton
 
-Most Relevant Lectures - Lecture 10, Recurrent Neural Networks
+> Most Relevant Lectures - Lecture 10, Recurrent Neural Networks
 
-Languages used - MATLAB
+> Languages used - MATLAB
 
 2. CSSC321 - Introduction to Neural Networks and Machine Learning
 
-Webpage - http://www.cs.toronto.edu/~tijmen/csc321/lecture_notes.shtml
+> Webpage - http://www.cs.toronto.edu/~tijmen/csc321/lecture_notes.shtml
 
-Instructor - Dr. Geoffrey Hinton
+> Instructor - Dr. Geoffrey Hinton
 
-Languages used - MATLAB
+> Languages used - MATLAB
 
 
 ### Implementations
@@ -55,8 +55,8 @@ To be updated.
 ### Implementations
 
 1. Library documentations :
-a. Keras - https://keras.io/
-b. TensorFlow - https://www.tensorflow.org/api_docs/python/
+> a. Keras - https://keras.io/
+> b. TensorFlow - https://www.tensorflow.org/api_docs/python/
 
 ---
 # Hidden Markov Models
