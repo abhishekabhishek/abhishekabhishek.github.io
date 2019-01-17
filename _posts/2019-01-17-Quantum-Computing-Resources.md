@@ -7,3 +7,5 @@ title: Quantum Computing Resources
 A list of academic and industrial resources on Quantum Computing I commonly use for research.
 
 ---
+
+Coming soon.
