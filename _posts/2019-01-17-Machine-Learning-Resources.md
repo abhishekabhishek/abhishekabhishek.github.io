@@ -21,14 +21,21 @@ The following is a list of resources that I have used in the past and am current
 ### Course Materials
 
 1. CSC2535 - Advanced Machine Learning, University of Toronto
+
 Webpage - https://www.cs.toronto.edu/~hinton/csc2535/lectures.html
+
 Instructor - Dr. Geoffrey Hinton
+
 Most Relevant Lectures - Lecture 10, Recurrent Neural Networks
+
 Languages used - MATLAB
 
 2. CSSC321 - Introduction to Neural Networks and Machine Learning
+
 Webpage - http://www.cs.toronto.edu/~tijmen/csc321/lecture_notes.shtml
+
 Instructor - Dr. Geoffrey Hinton
+
 Languages used - MATLAB
 
 
