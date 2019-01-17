@@ -8,3 +8,4 @@ An exhaustive list of machine learning resources I thoroughly use for my researc
 
 ---
 
+Self-organization is a very important component of good research. As one digs deeper into a subject area, the amount of resources that can be used tend to grow very large. 
