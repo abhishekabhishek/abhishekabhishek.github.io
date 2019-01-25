@@ -87,7 +87,12 @@ The learning problem for a classical perceptron can then be reduced to finding a
 
 In the previous years, several models have been presented forward for the algorithm and the implementation of the quantum version of the perceptron. We will discuss a few of them in-detail and learn about the underlying principles of quantum algorithms which can be used to improve the classical perceptron algorithm.
 
+- Quantum Perceptron using Sign Flip Blocks
+
 - Quantum Perceptron using Hypergraph States Generation Subroutine (HPGS)
+<br/> 
+
+
 
 
 
