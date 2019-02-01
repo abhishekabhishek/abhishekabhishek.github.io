@@ -126,14 +126,15 @@ In the previous years, several models have been presented forward for the algori
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The construction of the unitary transformation corresponding to the weight vector is not as trivial.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To be updated.
-- Quantum Perceptron using Sign Flip Blocks
+- Quantum Perceptron using Sign Flip Blocks (arXiV:1811.02266)
 <br/> 
 
-- Quantum Perceptron using Hypergraph States Generation Subroutine (HPGS)
+- Quantum Perceptron using Hypergraph States Generation Subroutine (HPGS) (arXiV:1811.02266)
 <br/> 
 
+- Quantum Online Perceptron using Grover's Search (arXiV:1602.04799) 
 
-
+- Quantum Perceptron using Version Space Interpretation (arXiV:1602.04799)
 
 
 ### Implementations and Examples<a id='implementations_and_examples'></a>
@@ -154,7 +155,8 @@ To be updated
 - M. Minsky, S. Papert, "Perceptrons: an introduction to computational geometry", 1969.
 - C. Issac and Nielsen M., "Quantum Computation and Quantum Information, 10th edition", 2010.
 3. Research Articles
-- [Tacchino2018] D. G. D. B. Francesco Tacchino, Chiara Macchiavello, “An artificial neuron implemented on an actual quantum processor” 2018. arXiV : https://arxiv.org/abs/1811.02266
+- [Tacchino2018] D. G. D. B. F. Tacchino, C. Macchiavello, “An artificial neuron implemented on an actual quantum processor” 2018. <br/> arXiV : https://arxiv.org/abs/1811.02266
 - [Farhi2018] E. Farhi, H. Neven, "Classification with Quantum Neural Networks on Near Term Processors" 2018. <br/>arXiV : https://arxiv.org/abs/1802.06002
+- [Svore2016] N.W., A. Kapoor, K. M. Svore, "Quantum Perceptron Models" 2016. <br/> arXiV: https://arvix.org/abs/1602.04799
 
 

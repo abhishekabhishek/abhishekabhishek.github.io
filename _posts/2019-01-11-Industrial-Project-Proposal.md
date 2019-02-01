@@ -4,7 +4,7 @@ title: Industrial Project Proposal
 ---
 ## COMP 4560 – Undergraduate Industrial Project Proposal
 
-### Title : Quantum Perceptron on the IBM Q
+### Title : Quantum Perceptrons on the IBM Q
 ### Abhishek ., 7803917
 
 ---
@@ -27,20 +27,15 @@ abstract: |
     implementation methods of more complex models such as the quantum neural
     network on near-term quantum information processing devices.
 author:
-- |
-    Abhishek .\
+- Abhishek .\
     Department of Computer Science, University of Manitoba\
     Email : abhishek\@myumanitoba.ca
-- |
-    Supervisor : Dr. Parimala Thulasiraman\
+- Supervisor : Dr. Parimala Thulasiraman\
     Department of Computer Science, University of Manitoba\
     Email : thulasir\@cs.umanitoba.ca
-bibliography:
-- 'references.bib'
-date: 'January 05, 2018'
-title: |
-    COMP 4560 - Undergraduate Industrial Project Registration Process\
-    Quantum Perceptrons on the IBM Q\
+
+- Date: January 05, 2018
+- Title: COMP 4560 - Undergraduate Industrial Project Registration Process, Quantum Perceptrons on the IBM Q
 ---
 
 Introduction
@@ -81,7 +76,7 @@ this industrial project, we will limit the scope of the research and
 implementation to the fundamental units of a neural network i.e. a
 perceptron.
 
-Classical Perceptron
+Classical Perceptrons
 --------------------
 
 The first model of a classical perceptron was published by Frank
@@ -89,11 +84,7 @@ Rosenblatt in 1958.[@Rosenblatt1958]. The original algorithm was a
 binary classifier which used a threshold function to compute the output
 value of the perceptron.
 
-$$f(x) = 
-        \begin{dcases}
-            1 & \textbf{w}.\textbf{x} + \textbf{b} > 0 \\
-            0 & otherwise
-        \end{dcases}$$
+<img src="https://latex.codecogs.com/gif.latex?f(x)&space;=&space;\begin{cases}&space;1&space;&&space;\textbf{w}.\textbf{x}&space;&plus;&space;\textbf{b}&space;>&space;0&space;\\&space;0&space;&&space;otherwise&space;\end{cases}" title="f(x) = \begin{cases} 1 & \textbf{w}.\textbf{x} + \textbf{b} > 0 \\ 0 & otherwise \end{cases}" />
 
 where $\textbf{w}$ is the vector of real-values weights for the
 connection between the input nodes and the output node, $\textbf{x}$ is
@@ -188,25 +179,13 @@ order to allow for a successful completion of the project.
 [\[table:1\]]{#table:1 label="table:1"}
 
   ----------------- ---------------------------------------------------- ---------------------------------------
-  Step project \#   Step project overview                                Expected dates
-  \[0.5ex\] 1       Thorough research and evaluation of the              January 11, 2019 - January 31, 2019
-                    proposed models of the quantum perceptron.           
-                    Determination of the best model to be                
-                    implemented on the quantum processors.               
-  2                 Setup of the development and execution               February 01, 2019 - February 28, 2019
-                    environment for the quantum simulators and           
-                    quantum processors. Learning of essential            
-                    programming fundamentals to successfully             
-                    implement the determined model on the                
-                    IBMQ5 and IBMQ20 machine.                            
-  3                 Implementation of the models on the quantum          March 01, 2019 - March 31, 2019
-                    simulators and processors available for execution.   
-                    A theoretical analysis to determine the gate and     
-                    query complexity of the implemented models.          
-  4                 Retrospective and compilation of the results from    April 01, 2019 - April 26, 2019
-                    the implementations and the executions of the        
-                    Quantum Perceptron models.                           
-  ----------------- ---------------------------------------------------- ---------------------------------------
+  Step project |  Step project overview  | Expected dates
+
+  1 | Thorough research and evaluation of the proposed models of the quantum perceptron. Determination of the best model to be  implemented on the quantum processors. | January 11, 2019 - January 31, 2019           
+  2 | Setup of the development and execution environment for the quantum simulators and quantum processors. Learning of essential programming fundamentals to successfully implement the determined model on the IBMQ5 and IBMQ20 machine. | February 01, 2019 - February 28, 2019                            
+  3 | Implementation of the models on the quantum simulators and processors available for execution. A theoretical analysis to determine the gate and query complexity of the implemented models. | March 01, 2019 - March 31, 2019        
+  4 | Retrospective and compilation of the results from the implementations and the executions of the Quantum Perceptron models. | April 01, 2019 - April 26, 2019                         
+  --------------------------------------------------------------------- ---------------------------------------
 
 Requirements
 ============
